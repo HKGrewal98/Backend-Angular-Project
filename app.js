@@ -16,7 +16,7 @@ async function serverUp(){
        process.exit(0)
     }
     // Parse request bodies as JSON
-    app.use(express.static(path.join(__dirname, "./capstone-angular")))
+   app.use(express.static(path.join(__dirname, "./capstone-angular")))
     app.use('/menu',menuRoutes)
     app.use('/web',webTokenRoute)
     app.use('/user',userRoutes)
