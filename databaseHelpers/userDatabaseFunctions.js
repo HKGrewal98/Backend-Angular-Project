@@ -18,7 +18,7 @@ function saveUser(data,res){
             return res.status(500).json({error:err})
         }
         if(result){
-            return res.status(201).json({status:"SUCCESS",message:`User already exists with email ${result.email}.`})
+            return res.status(400).json({status:"SUCCESS",message:`User already exists with email ${result.email}.`})
         }
 
         const newUser = new userDB
