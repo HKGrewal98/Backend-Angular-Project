@@ -14,7 +14,7 @@ Frontend:
 7: Used HttpModule to make HTTP requests, also used @input and @Output annotations to exchange the information between the components. 
 
 
-# Kashish (N01569020):
+
 Login Page - Designed Login page and added CSS styling along with angular.
 Used UserService class to store the user information globally.
 Used Http Module to make requests to the backend.
@@ -25,7 +25,6 @@ Used the for loop to list all the available jobs.
 Created Job interface in order to parse the backend response.
 
 
-# Sonal Pooja (N01474010):
 
 Designed a frontend for the Reviews and Contact Us pages.
 Implemented forms on both pages to allow for user input.
@@ -39,6 +38,6 @@ Implementing forms in Angular for user input and handling form data.
 Learnt about Angular's directives and services for extending component functionality.
 Applying CSS styling to Angular components for better UI.
 
-# Priya Joseph (N01468981):
+
    Payment Page: Once the user adds item to the cart and checks out with address details, the user is redirected to the Payment page. In payment page, the user enters the card details and submits the form and the order is placed. Once the order is successful the user receives a mail. The payment details are saved into the mongoDB.
    About us Page: The about us description is loaded using useContext from AboutContext.js
